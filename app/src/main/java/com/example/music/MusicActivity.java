@@ -459,7 +459,7 @@ public class MusicActivity extends AppCompatActivity {
             showInfo("已经是第一首音乐了");
         }
     }
-
+    
     private void nextMusic() {
         if(currentposition < musicList.size()-2){
             currentposition += 1;
